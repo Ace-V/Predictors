@@ -1,4 +1,4 @@
-# Simplified & Humanized Hungarian GP 2025 Predictor
+
 import os
 import warnings
 import requests
