@@ -492,10 +492,8 @@ def main():
     
     # Load historical data
     predictor.load_historical_data([2022, 2023, 2024])
-    
-    # Get weather forecast (replace with your API key)
     # predictor.get_weather_forecast("your_openweather_api_key")
-    predictor.get_weather_forecast("87cee7066aae05990ad4381489b47a5d")  # Uses fallback data
+    predictor.get_weather_forecast("api-key-here")  # Uses fallback data
     
     # Create driver features
     predictor.create_driver_features()
